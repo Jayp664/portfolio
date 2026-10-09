@@ -318,58 +318,35 @@
     <!-- Contact Section -->
     <section id="contact" class="section bg-alt">
         <div class="container">
-            <div class="contact-grid">
-                <div class="contact-info-panel" data-aos="fade-right">
-                    <h2 class="section-title">Let's build something <span class="accent">amazing.</span></h2>
-                    <p class="contact-subtitle">Whether you have a project in mind or just want to say hi, my inbox is always open.</p>
-                    
-                    <div class="contact-details">
-                        <div class="contact-item">
-                            <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
-                            <div>
-                                <h4>Email</h4>
-                                <p>panchaljay664@gmail.com</p>
-                            </div>
-                        </div>
-                        <div class="contact-item">
-                            <div class="contact-icon"><i class="fa-solid fa-phone"></i></div>
-                            <div>
-                                <h4>Phone</h4>
-                                <p>+91 8799176714</p>
-                            </div>
-                        </div>
-                        <div class="contact-item">
-                            <div class="contact-icon"><i class="fa-solid fa-location-dot"></i></div>
-                            <div>
-                                <h4>Location</h4>
-                                <p>Ahmedabad, Gujarat</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="contact-header" data-aos="fade-up">
+                <h2 class="section-title">Let's build something <span class="accent">amazing.</span></h2>
+                <p class="contact-subtitle">Whether you have a project in mind or just want to say hi, my inbox is always open.</p>
+            </div>
+            
+            <div class="contact-cards-grid">
+                <a href="mailto:panchaljay664@gmail.com" class="contact-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+                    <h3>Email</h3>
+                    <p>panchaljay664@gmail.com</p>
+                </a>
                 
-                <div class="contact-form-panel" data-aos="fade-left">
-                    <form id="contact-form" class="modern-form">
-                        <div class="form-row">
-                            <div class="input-group">
-                                <label for="name">Your Name</label>
-                                <input type="text" id="name" name="name" required placeholder="John Doe">
-                            </div>
-                            <div class="input-group">
-                                <label for="email">Your Email</label>
-                                <input type="email" id="email" name="email" required placeholder="john@example.com">
-                            </div>
-                        </div>
-                        <div class="input-group">
-                            <label for="purpose">How can I help you?</label>
-                            <textarea id="purpose" name="purpose" required placeholder="Tell me about your project..."></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary btn-block" id="submit-btn">
-                            Send Message <i class="fa-regular fa-paper-plane"></i>
-                        </button>
-                        <div id="form-status" class="form-status"></div>
-                    </form>
+                <a href="tel:+918799176714" class="contact-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="contact-icon"><i class="fa-solid fa-phone"></i></div>
+                    <h3>Phone</h3>
+                    <p>+91 8799176714</p>
+                </a>
+                
+                <div class="contact-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="contact-icon"><i class="fa-solid fa-location-dot"></i></div>
+                    <h3>Location</h3>
+                    <p>Ahmedabad, Gujarat</p>
                 </div>
+            </div>
+            
+            <div class="contact-action" data-aos="zoom-in" data-aos-delay="400">
+                <a href="mailto:panchaljay664@gmail.com" class="btn btn-primary pulse-btn">
+                    Say Hello <i class="fa-regular fa-paper-plane"></i>
+                </a>
             </div>
         </div>
     </section>
