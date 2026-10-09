@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jay Panchal | Premium Portfolio</title>
+    <!-- Modern Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="bg-grid"></div>
+    <div class="glow-orb orb-1"></div>
+    <div class="glow-orb orb-2"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">
+            <span class="logo-icon"><i class="fa-solid fa-code"></i></span>
+            <span class="logo-text">Jay<span class="accent">.</span></span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#experience" class="nav-link">Experience</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#contact" class="nav-btn">Let's Talk</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero" id="home">
+        <div class="container hero-container">
+            <div class="hero-content" data-aos="fade-right" data-aos-duration="1000">
+                <div class="badge">
+                    <span class="pulse-dot"></span> Available for new opportunities
+                </div>
+                <h1 class="hero-title">
+                    Crafting <span class="text-gradient">Digital</span><br>
+                    Experiences.
+                </h1>
+                <h2 class="hero-subtitle">Hi, I'm Jay Panchal — Full Stack Developer & AI Enthusiast based in Ahmedabad.</h2>
+                <p class="hero-desc">I specialize in building production-ready, scalable web applications and integrating advanced AI solutions to solve complex problems.</p>
+                
+                <div class="hero-actions">
+                    <a href="#projects" class="btn btn-primary">
+                        View Projects <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                    <a href="https://linkedin.com/in/jay-panchal-188403254" target="_blank" class="btn btn-secondary">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/Jayp664" target="_blank" class="btn btn-secondary">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </div>
+                
+                <div class="tech-stack-row">
+                    <span>Powered by:</span>
+                    <i class="fa-brands fa-react"></i>
+                    <i class="fa-brands fa-angular"></i>
+                    <i class="fa-brands fa-laravel"></i>
+                    <i class="fa-brands fa-node-js"></i>
+                </div>
+            </div>
+            
+            <div class="hero-visual" data-aos="fade-left" data-aos-duration="1200">
+                <div class="code-window">
+                    <div class="code-header">
+                        <span class="dot red"></span>
+                        <span class="dot yellow"></span>
+                        <span class="dot green"></span>
+                    </div>
+                    <pre class="code-body">
+<code><span class="keyword">const</span> developer = {
+  <span class="property">name</span>: <span class="string">'Jay Panchal'</span>,
+  <span class="property">role</span>: <span class="string">'Full Stack Developer'</span>,
+  <span class="property">skills</span>: [<span class="string">'React'</span>, <span class="string">'Angular'</span>, <span class="string">'Laravel'</span>],
+  <span class="property">build</span>: <span class="keyword">function</span>() {
+    <span class="keyword">return</span> <span class="string">'Awesome Applications'</span>;
+  }
+};
+
+<span class="function">developer.build</span>();</code>
+                    </pre>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Experience & Education Split Section -->
+    <section id="experience" class="section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">My <span class="accent">Journey</span></h2>
+                <p class="section-subtitle">A timeline of my professional experience and education.</p>
+            </div>
+            
+            <div class="timeline-container">
+                <div class="timeline-column" data-aos="fade-right">
+                    <h3 class="column-title"><i class="fa-solid fa-briefcase"></i> Experience</h3>
+                    
+                    <div class="timeline-card">
+                        <div class="timeline-date">May 2026 – Present</div>
+                        <h4 class="timeline-role">Full Stack Developer</h4>
+                        <h5 class="timeline-company">ICARUS Solution</h5>
+                        <p>Leading development for healthcare, e-commerce, and real estate SaaS platforms. Integrating AI APIs for competitor research and automation. Developed key features for Get Juicy and Padmini Jewels.</p>
+                    </div>
+                    
+                    <div class="timeline-card">
+                        <div class="timeline-date">Jan 2026 – Apr 2026</div>
+                        <h4 class="timeline-role">Full Stack Developer Intern</h4>
+                        <h5 class="timeline-company">ICARUS Solution</h5>
+                        <p>Contributed to production Angular and Laravel applications. Worked with MySQL and REST APIs while adhering to enterprise Git workflows. Promoted rapidly to full-time developer.</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-column" data-aos="fade-left">
+                    <h3 class="column-title"><i class="fa-solid fa-graduation-cap"></i> Education</h3>
+                    
+                    <div class="timeline-card">
+                        <div class="timeline-date">2024 – 2026</div>
+                        <h4 class="timeline-role">Master of Science (I.T & C.A)</h4>
+                        <h5 class="timeline-company">Gujarat University</h5>
+                        <p>Advanced studies in information technology and computer applications at K.S School of Business Management.</p>
+                    </div>
+                    
+                    <div class="timeline-card">
+                        <div class="timeline-date">2019 – 2022</div>
+                        <h4 class="timeline-role">Bachelor of Science (I.T & C.A)</h4>
+                        <h5 class="timeline-company">Gujarat University</h5>
+                        <p>Foundation in computer science, software development, and database administration.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section bg-alt">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Technical <span class="accent">Arsenal</span></h2>
+                <p class="section-subtitle">Technologies and tools I use to bring ideas to life.</p>
+            </div>
+            
+            <div class="skills-grid">
+                <!-- Frontend -->
+                <div class="skill-category-card" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="skill-icon"><i class="fa-solid fa-desktop"></i></div>
+                    <h3>Frontend Development</h3>
+                    <div class="skill-tags">
+                        <span>React.js</span>
+                        <span>Next.js</span>
+                        <span>Angular</span>
+                        <span>Tailwind CSS</span>
+                        <span>Bootstrap</span>
+                    </div>
+                </div>
+                
+                <!-- Backend -->
+                <div class="skill-category-card" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="skill-icon"><i class="fa-solid fa-server"></i></div>
+                    <h3>Backend Architecture</h3>
+                    <div class="skill-tags">
+                        <span>Laravel</span>
+                        <span>Node.js</span>
+                        <span>REST APIs</span>
+                        <span>MySQL</span>
+                        <span>Redis</span>
+                    </div>
+                </div>
+                
+                <!-- AI -->
+                <div class="skill-category-card" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="skill-icon"><i class="fa-solid fa-brain"></i></div>
+                    <h3>AI & Integration</h3>
+                    <div class="skill-tags">
+                        <span>OpenAI API</span>
+                        <span>Gemini API</span>
+                        <span>Prompt Engineering</span>
+                        <span>Agentic AI</span>
+                    </div>
+                </div>
+                
+                <!-- Tools -->
+                <div class="skill-category-card" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="skill-icon"><i class="fa-solid fa-screwdriver-wrench"></i></div>
+                    <h3>Development Tools</h3>
+                    <div class="skill-tags">
+                        <span>Git & GitHub</span>
+                        <span>Vercel</span>
+                        <span>Postman</span>
+                        <span>Claude Code</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Featured <span class="accent">Projects</span></h2>
+                <p class="section-subtitle">A selection of my best work in web development and AI.</p>
+            </div>
+            
+            <div class="projects-wrapper">
+                
+                <!-- Project 1 -->
+                <div class="project-showcase" data-aos="fade-up">
+                    <div class="project-content">
+                        <div class="project-overline">E-Commerce & Health</div>
+                        <h3 class="project-title">Get Juicy</h3>
+                        <p class="project-description">A responsive men’s sexual health and e-commerce platform offering doctor-guided treatment plans, health assessments, and personalized products with complex purchase flows.</p>
+                        <ul class="project-tech-list">
+                            <li>Angular</li>
+                            <li>Laravel</li>
+                            <li>MySQL</li>
+                        </ul>
+                        <a href="https://getjuicy.in/" target="_blank" class="project-link"><i class="fa-solid fa-arrow-up-right-from-square"></i> Visit Website</a>
+                    </div>
+                    <div class="project-visual">
+                        <div class="visual-placeholder" style="background: linear-gradient(45deg, #1f1c2c, #928DAB);">
+                            <i class="fa-solid fa-heart-pulse"></i>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 2 -->
+                <div class="project-showcase reverse" data-aos="fade-up">
+                    <div class="project-content">
+                        <div class="project-overline">Luxury Retail</div>
+                        <h3 class="project-title">Padmini Jewels</h3>
+                        <p class="project-description">A premium luxury jewellery website showcasing bespoke bridal collections. Features an elegant UI, responsive layouts, and an integrated Nodemailer enquiry form.</p>
+                        <ul class="project-tech-list">
+                            <li>Next.js</li>
+                            <li>React</li>
+                            <li>Tailwind</li>
+                        </ul>
+                        <a href="https://padmini-jewels.vercel.app/" target="_blank" class="project-link"><i class="fa-solid fa-arrow-up-right-from-square"></i> Visit Website</a>
+                    </div>
+                    <div class="project-visual">
+                        <div class="visual-placeholder" style="background: linear-gradient(45deg, #2c3e50, #fd746c);">
+                            <i class="fa-regular fa-gem"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-showcase" data-aos="fade-up">
+                    <div class="project-content">
+                        <div class="project-overline">Real Estate</div>
+                        <h3 class="project-title">NorthStar Address</h3>
+                        <p class="project-description">Premium real-estate website showcasing exclusive land estates and luxury villas. Built with interactive property enquiry forms and brochure download capabilities.</p>
+                        <ul class="project-tech-list">
+                            <li>Next.js</li>
+                            <li>Tailwind CSS</li>
+                            <li>Node.js</li>
+                        </ul>
+                        <a href="https://northstaraddress.com/" target="_blank" class="project-link"><i class="fa-solid fa-arrow-up-right-from-square"></i> Visit Website</a>
+                    </div>
+                    <div class="project-visual">
+                        <div class="visual-placeholder" style="background: linear-gradient(45deg, #2193b0, #6dd5ed);">
+                            <i class="fa-solid fa-building"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-showcase reverse" data-aos="fade-up">
+                    <div class="project-content">
+                        <div class="project-overline">3D Experience</div>
+                        <h3 class="project-title">SLVRLUX</h3>
+                        <p class="project-description">A highly interactive luxury product showcase website featuring 3D/WebGL rendering using Three.js and advanced scroll-driven animations with GSAP and Framer Motion.</p>
+                        <ul class="project-tech-list">
+                            <li>React</li>
+                            <li>Three.js</li>
+                            <li>GSAP</li>
+                        </ul>
+                        <a href="https://slvrlux.com/" target="_blank" class="project-link"><i class="fa-solid fa-arrow-up-right-from-square"></i> Visit Website</a>
+                    </div>
+                    <div class="project-visual">
+                        <div class="visual-placeholder" style="background: linear-gradient(45deg, #0f2027, #203a43, #2c5364);">
+                            <i class="fa-solid fa-cube"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="project-showcase" data-aos="fade-up">
+                    <div class="project-content">
+                        <div class="project-overline">AI Platform</div>
+                        <h3 class="project-title">DigiAgent</h3>
+                        <p class="project-description">An AI-powered social media management platform for competitor research and content creation using OpenAI and Gemini APIs, backed by Redis and Celery for async tasks.</p>
+                        <ul class="project-tech-list">
+                            <li>React</li>
+                            <li>Django</li>
+                            <li>OpenAI</li>
+                        </ul>
+                    </div>
+                    <div class="project-visual">
+                        <div class="visual-placeholder" style="background: linear-gradient(45deg, #141E30, #243B55);">
+                            <i class="fa-solid fa-robot"></i>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section bg-alt">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info-panel" data-aos="fade-right">
+                    <h2 class="section-title">Let's build something <span class="accent">amazing.</span></h2>
+                    <p class="contact-subtitle">Whether you have a project in mind or just want to say hi, my inbox is always open.</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+                            <div>
+                                <h4>Email</h4>
+                                <p>panchaljay664@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon"><i class="fa-solid fa-phone"></i></div>
+                            <div>
+                                <h4>Phone</h4>
+                                <p>+91 8799176714</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon"><i class="fa-solid fa-location-dot"></i></div>
+                            <div>
+                                <h4>Location</h4>
+                                <p>Ahmedabad, Gujarat</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form-panel" data-aos="fade-left">
+                    <form id="contact-form" class="modern-form">
+                        <div class="form-row">
+                            <div class="input-group">
+                                <label for="name">Your Name</label>
+                                <input type="text" id="name" name="name" required placeholder="John Doe">
+                            </div>
+                            <div class="input-group">
+                                <label for="email">Your Email</label>
+                                <input type="email" id="email" name="email" required placeholder="john@example.com">
+                            </div>
+                        </div>
+                        <div class="input-group">
+                            <label for="purpose">How can I help you?</label>
+                            <textarea id="purpose" name="purpose" required placeholder="Tell me about your project..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block" id="submit-btn">
+                            Send Message <i class="fa-regular fa-paper-plane"></i>
+                        </button>
+                        <div id="form-status" class="form-status"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-logo">Jay<span>.</span></div>
+            <p>&copy; 2026 Jay Panchal. All rights reserved.</p>
+            <div class="footer-social">
+                <a href="https://linkedin.com/in/jay-panchal-188403254" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/Jayp664" target="_blank"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- AOS Script -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+    <script>
+        AOS.init({
+            once: true,
+            offset: 50,
+        });
+    </script>
+</body>
+</html>
